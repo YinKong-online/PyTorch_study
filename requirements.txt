@@ -1,0 +1,14 @@
+# 项目依赖包
+# PyTorch及其相关库
+pytorch>=2.0.0
+ torchvision>=0.15.0
+
+# 数据处理和可视化
+numpy>=1.24.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+
+# 其他工具
+scikit-learn>=1.2.0
+tqdm>=4.65.0
+Pillow>=10.0.0
