@@ -488,7 +488,7 @@ if __name__ == '__main__':
     image_size = 128  # 减小图像大小以提高运行速度
     num_classes = 21  # PASCAL VOC数据集有21个类别
     learning_rate = 1e-4
-    num_epochs = 10  # 为了快速测试，只训练10个epoch
+    num_epochs = 50  # 为了快速测试，只训练50个epoch
     
     # 创建模型
     model = DilatedCNN(num_classes=num_classes).to(device)
